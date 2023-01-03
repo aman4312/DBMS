@@ -4,3 +4,5 @@ Blob: Binary large object
 Clob: character large object
       It is used to store character large data.
       Used to store text, word, pdf.
+1: TO CREATE NEW TABLE FROM EXISTING TABLE:
+USE: CREATE TABLE NEW_TABLE AS SELECT COLUMN_NAME FROM EXISTING_TABLE;
