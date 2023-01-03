@@ -1,0 +1,4 @@
+Blob: Binary large object
+      It is used to store large binary data
+Clob: character large object
+      It is used to store character large data.
