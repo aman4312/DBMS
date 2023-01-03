@@ -1,4 +1,6 @@
 Blob: Binary large object
       It is used to store large binary data
+      Used to store videos , images.
 Clob: character large object
       It is used to store character large data.
+      Used to store text, word, pdf.
