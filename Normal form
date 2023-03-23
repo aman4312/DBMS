@@ -1,3 +1,11 @@
 key->non key(must exist)
 part of the key->non key (nhi hona chaihye) if true then 2nf
 non key-> non key (nhi hona chaihye) if true then 3nf
+Needs of normalization :
+  we remove anomalies(the anamolies are :
+                                1.Insertion
+                                2.Deletion
+                                3.Updation
+  and reduce redundancy 
+ 
+1nf : Each cell in table must be atmoic(single valued)
