@@ -9,3 +9,9 @@ Needs of normalization :
   and reduce redundancy 
  
 1nf : Each cell in table must be atmoic(single valued)
+
+Shortcut:
+1. if data is not given then table is in 1nf.
+2.if we have single attribute keys then table is 2nf
+3.if all atributes are prime attributes then 3nf
+4.if we have simple (single keys in table and table is in 3nf then it is bcnf
