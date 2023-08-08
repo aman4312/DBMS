@@ -1,0 +1,16 @@
+Q1.Display name and department of employees
+ along with the model of the computer 
+allocated to them. Employee details must
+ be displayed with 'Not allocated' against 
+the model column if computer is not allocated
+ to the person.
+
+
+Query:
+SELECT e.Ename AS Ename, e.Dept AS Dept, COALESCE(c.Model, 'Not allocated') AS Model
+FROM Employee e
+LEFT JOIN Computer c ON e.Compid = c.Compid;
+
+
+q2:Display the names of salesmen who have not made any sales.
+Quey: SELECT SNAME FROM SALESMAN S WHERE NOT EXISTS(SELECT SID FROM SALE S1 WHERE S1.SID=S.SID)
