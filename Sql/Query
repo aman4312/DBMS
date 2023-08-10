@@ -14,3 +14,6 @@ FULL_NAME VARCHAR(72),
 HEADLINE VARCHAR(72)
 
 );
+
+3. Second highest salary from table:
+select max(sal) from emp where sal not in (select max(sal) from emp);
